@@ -157,10 +157,10 @@ const Index = () => {
           alt="Tomsk Ski Marathon - наша команда"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-          <div className="container mx-auto px-4 py-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Наша команда на Tomsk Ski Marathon</h2>
-            <p className="text-xl text-white/90 max-w-2xl">Профессиональные спортсмены, которые знают всё о лыжных гонках и биатлоне</p>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-center justify-center">
+          <div className="text-center px-4">
+            <h2 className="text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-2xl">Лыжные гонки и биатлон</h2>
+            <p className="text-2xl md:text-3xl text-white/95 drop-shadow-lg">Tomsk Ski Marathon</p>
           </div>
         </div>
       </section>
