@@ -158,8 +158,10 @@ const Index = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0">
-          <div className="absolute top-8 right-8 text-right px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary drop-shadow-2xl">Лыжные гонки и биатлон</h2>
+          <div className="absolute top-8 right-8">
+            <div className="bg-primary px-6 py-4 rounded-lg shadow-2xl">
+              <h2 className="text-2xl md:text-3xl font-bold text-white uppercase tracking-wide">Лыжные гонки и биатлон</h2>
+            </div>
           </div>
         </div>
       </section>
