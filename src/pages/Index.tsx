@@ -151,6 +151,20 @@ const Index = () => {
         </div>
       </header>
 
+      <section className="relative w-full h-[500px] overflow-hidden">
+        <img 
+          src="https://cdn.poehali.dev/files/2b168c83-ff68-4bc1-a3ad-f79672683a8d.jpg" 
+          alt="Tomsk Ski Marathon - наша команда"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+          <div className="container mx-auto px-4 py-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Наша команда на Tomsk Ski Marathon</h2>
+            <p className="text-xl text-white/90 max-w-2xl">Профессиональные спортсмены, которые знают всё о лыжных гонках и биатлоне</p>
+          </div>
+        </div>
+      </section>
+
       <main className="container mx-auto px-4 py-8">
         <Tabs defaultValue="all" className="w-full" onValueChange={setSelectedCategory}>
           <TabsList className="grid w-full grid-cols-4 mb-8">
